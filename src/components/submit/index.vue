@@ -45,7 +45,7 @@ export default {
   methods: {
     async submitAndExit() {
       /* eslint-disable */
-      const api = axios.create({ baseURL: 'http://localhost:3001/api' }); //eslint-disable-line
+      const api = axios.create({ baseURL: process.env.BLITZUCKER_API_URL || 'http://localhost:3001/api' }); //eslint-disable-line
 
       const toSend = this.enteredData.filter( e => e.value).map( entry => {
         entry.time = this.dateTime

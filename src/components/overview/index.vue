@@ -15,7 +15,7 @@ export default {
       history,
       email: 'test-user@test.com', // TODO: fix this,
       apiInstance: axios.create({
-        baseURL: 'http://localhost:3001/api'
+        baseURL: process.env.BLITZUCKER_API_URL || 'http://localhost:3001/api'
       })
     }
   },
