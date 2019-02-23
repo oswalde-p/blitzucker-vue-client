@@ -15,6 +15,6 @@ To deploy, simply run
 ```
 bash heroku-deploy.sh
 ```
-Once the script is finished, changes should be live at `https://blitzucker-vue-client.herokuapp.com/`
+Once the script is finished, changes should be live at https://blitzucker-vue-client.herokuapp.com/
 
 More information on working with heroku can be found [here](https://devcenter.heroku.com/articles/container-registry-and-runtime)
