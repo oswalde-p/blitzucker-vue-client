@@ -1,21 +1,20 @@
-# d6s
+# blitzucker vue client
 
-> A Vue.js project
+> A frontend application to display data from the blitzucker api, built with vuex
 
-## Build Setup
+## Build
 
-``` bash
-# install dependencies
+```
 npm install
-
-# serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Deploy
+Currently, heroku is used for deploying a docker image.
+To deploy, simply run
+```
+bash heroku-deploy.sh
+```
+Once the script is finished, changes should be live at `https://blitzucker-vue-client.herokuapp.com/`
+
+More information on working with heroku can be found [here](https://devcenter.heroku.com/articles/container-registry-and-runtime)
