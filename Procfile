@@ -1,2 +1,3 @@
+web: npm install -g shelljs
 web: npm install
-web: npm run dev
+web: npm run build
